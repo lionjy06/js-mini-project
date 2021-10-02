@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #c6fc03;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./img3.jpg");
+  background-size: cover;
+}
+
+#weather {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+
+#clock {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  font-size: 60px;
+}
+
+#greeting input {
+  position: absolute;
+  right: 41%;
+  top: 63%;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
+  text-decoration-thickness: 5px;
+  background: none;
+  font-weight: 800;
+}
+
+#greeting input::placeholder {
+  color: #c6fc03;
+  text-align: center;
+}
+
+#todo-form input {
+  position: absolute;
+  border: none;
+  outline: none;
+  right: 47%;
+  top: 73%;
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
+  font-size: 25px;
+  background: none;
+  font-weight: 700;
+  text-decoration-thickness: 4px;
+}
+
+#todo-form input::placeholder {
+  color: #c6fc03;
+  text-align: center;
+}
+
+#hiUser {
+  position: absolute;
+  right: 47%;
+  top: 63%;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
+  text-decoration-thickness: 5px;
+  background: none;
+  font-weight: 800;
+}
+
+.hidden {
+  display: none;
+}
+
+#todo-list {
+  position: absolute;
+  border: none;
+  outline: none;
+  right: 50%;
+  top: 80%;
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
+  font-size: 25px;
+  background: none;
+  font-weight: 700;
+  text-decoration-thickness: 4px;
+  list-style: none;
+  text-align: left;
+}
